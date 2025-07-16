@@ -1,0 +1,4 @@
+namespace: fleet-helm-repo
+targetCustomizations:
+- name: all-clusters
+  clusterSelector: {}  # Выбирает ВСЕ кластеры

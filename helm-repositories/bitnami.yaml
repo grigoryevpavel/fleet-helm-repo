@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: global-bitnami
+  namespace: fleet-helm-repo
+spec:
+  interval: 30m  # Период синхронизации
+  url: 	https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
